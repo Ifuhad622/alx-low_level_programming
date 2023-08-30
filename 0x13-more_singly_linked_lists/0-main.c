@@ -9,6 +9,7 @@
 * Return: Always 0.
 */
 int main(void)
+
 {
 	listint_t *head;
 	listint_t *new;
@@ -19,7 +20,7 @@ int main(void)
 	new = malloc(sizeof(listint_t));
 	if (new == NULL)
 	{
-	printf("Error\n"
+	printf("Error\n");
 	return (1);
 	}
 	new->n = 9;
